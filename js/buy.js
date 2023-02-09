@@ -6,6 +6,88 @@ let btn_3 = document.querySelector('.deep')
 let p = document.querySelector('#p')
 
 
+
+let modal = document.querySelector('.modal')
+let okno_btn = document.querySelector('#okno_btn')
+let x = document.querySelector('.close')
+
+
+okno_btn.onclick = function() {
+
+modal.style.display = 'block'
+
+}
+x.onclick = function() {
+
+  modal.style.display = 'none'
+  
+}
+
+// let okno = function(){
+  
+//   modal.classList.add('#okno_btn')
+// }
+
+// let zakroy = function(){
+
+//   modal.classList.remove('.close')
+// }
+
+// modal.forEach(function(item){
+// item.addEventListener('click', okno)
+// })
+// close.addEventListener('click', zakroy)
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.body.addEventListener('click', e => {
     if (!e.target.matches('.gold','#gold'))
     
@@ -42,6 +124,8 @@ document.body.addEventListener('click', e => {
     
 
   })
+
+
 
 
 
